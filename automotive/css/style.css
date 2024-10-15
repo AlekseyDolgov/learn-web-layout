@@ -1,0 +1,279 @@
+@font-face {
+     font-family: QuiteChocolatey;
+    src: url("../fonts/Quite Chocolatey.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: PTSerif-Bold;
+    src: url("../fonts/PTSerif-Bold.ttf");
+}
+
+@font-face {
+    font-family: PTSerif-Regular;
+    src: url("../fonts/PTSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: Couture;
+    src: url("../fonts/couture-bld.otf");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('../img/fon-header.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 163px;
+}
+
+.top__header .logo {
+    font-size: 60px;
+    font-family: "QuiteChocolatey";
+    color: #FFFFFF;
+}
+
+.top__header .nav a {
+    font-size: 18px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 12px 15px;
+}
+
+.top__header .nav a:hover {
+    background-color: rgb(19, 14, 39);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#sell-your {
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    margin: 0;
+    line-height: 50px;
+}
+
+#car-now {
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.header__text p{
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    max-width: 50%;
+    padding-bottom: 160px;
+}
+
+
+.title__service {
+    font-family: "Couture";
+    display: flex;
+    font-size: 50px;
+    padding-bottom: 100px;
+    padding-left: 16px;
+    padding-top: 45px;
+}
+#our {
+    margin-right: 19px;
+    color: #c62314;
+}
+#services {
+    color: #130e27;
+}
+
+.service_cards {
+    display: flex;
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.card__item img {
+    height: 156px;
+}
+
+
+.card__item p{
+    font-size: 20px;
+    text-align: center;
+    font-family: PTSerif-Regular;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.call {
+    background-color: #130e27;
+}
+
+.call__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call__text {
+    color: white;
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    max-width: 65%;
+    padding: 40px 0;
+}
+
+.call__button {
+    margin: 55px 0 48px;
+}
+
+.call__button a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #c62314;
+    font-size: 20px;
+    padding: 24px 65px;
+    border-radius: 4px;
+}
+
+.pricing {
+    background-color: #efefef;
+}
+
+.pricing__title h2{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 58px;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 63px;
+}
+
+.pricing__card {
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 65px 10px;
+    border-radius: 7px;
+}
+
+.name__card {
+    font-family: PTSerif-Regular;
+    font-size: 22px;
+}
+
+.price__card {
+    font-family: Montserrat;
+    font-size: 60px;
+    color: #c62314;
+    text-transform: uppercase;
+}
+
+.description__card ul {
+    padding: 0;
+}
+.description__card ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    text-transform: capitalize ;
+}
+
+.button__card  {
+    padding: 18px 50px 15px;
+    background-color: #130e27;
+    border-radius: 4px;
+}
+.button__card:hover {
+    padding: 18px 50px 15px;
+    background-color: #c62314;
+    border-radius: 4px;
+}
+
+
+.button__card a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.footer {
+    background-color: #130e27;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    color: #FFFFFF;
+    font-family: PTSerif-Regular;
+    font-size: 20px;
+    display: flex;
+}
+.about p {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin: 0;
+}
+.about #about__red {
+    color: #c62314;
+    font-family: PTSerif-Regular;
+    padding-left: 4px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.footer__logo {
+    color: #c62314;
+    font-family: QuiteChocolatey;
+    font-size: 64px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
