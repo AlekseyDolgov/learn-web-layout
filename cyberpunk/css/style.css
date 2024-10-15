@@ -1,0 +1,552 @@
+@font-face {
+    font-family: Archangelsk;
+    src: url("../font/ofont.ru_Archangelsk.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../font/ofont.ru_Roboto.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,html, p, h2, ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+/*хедер*/
+
+header {
+    background-repeat: repeat-x;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    /*height: 1000px;*/
+    padding: 0 320px;
+    margin: 0 auto;
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.social-media {
+    max-width: 379px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__banner {
+    display: flex;
+    justify-content: end;
+    /*margin: 631px 320px 0 976px;*/
+    flex-direction: row;
+    align-items: flex-end;
+    height: 891px;
+}
+
+.header__text {
+    background-color: #F8F200;
+    padding: 70px 70px 133px;
+    height: 369px;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+
+}
+
+.header__text h2 {
+    font-family: "Archangelsk";
+    font-weight : 400;
+    font-size: 62px;
+    line-height: 63.3px;
+    width: 484px;
+    margin: 0;
+}
+
+
+.banner-bottom {
+    background-color: #000000;
+    color: #F8F200;
+    display: inline-block;
+    padding: 19px 50px 19px 50px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+    line-height: 40px;
+    margin-top: 25px;
+}
+.banner-bottom a {
+    text-decoration: none;
+}
+
+/*content*/
+
+.text__content h2 {
+    font-family: "Archangelsk";
+    font-size: 62px;
+    line-height: 63.3px;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.text__content p {
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #777777;
+    width: 952px;
+    padding-bottom: 70px;
+}
+
+.pic__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pic__content img {
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
+
+.pic__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.pic__two img {
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
+
+
+.star__promo {
+    background-image: url("../img/promo/start.png");
+    width: 100%;
+    height: 70px;
+    margin-top: 70px;
+}
+
+/*promo*/
+
+
+.promo {
+    background-color: #000000;
+}
+
+.promo__inner {
+    display: flex;
+}
+
+.left-block {
+    display: inline-block;
+}
+
+
+.top__promo {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 952px;
+}
+
+.top__promo h2 {
+    color: #FFFFFF;
+    font-family: "Archangelsk";
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63.3px;
+    margin-left: 32px;
+}
+
+.text__promo p {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.form__img__promo {
+    display: flex;
+}
+
+.form__promo form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input__form__promo {
+    background-color: #000000;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    outline: none;
+    width: 460px;
+    padding-bottom: 13px;
+}
+
+#input__form__promo_name {
+    margin-top: 98px;
+}
+#input__form__promo_email {
+    margin-top: 35px;
+}
+
+.input__form__promo::placeholder {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+
+.custom-file-upload {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #777777;
+    border-style: dashed;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    text-decoration: #FFFFFF underline 1px;
+    padding: 39px 137px;
+    white-space: nowrap;
+    margin-top: 35px;
+}
+
+.file-formats {
+    display: block;
+    font-size: 12px;
+    color: #cccccc;
+    margin-top: 7px;
+    font-weight: 300;
+    line-height: 14.06px;
+    text-align: center; /* Центрируем текст */
+}
+
+.button__form__promo {
+    background-color: #F8F200;
+    color: #000000;
+    border: none;
+    padding: 19px 50px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+    margin-top: 35px;
+}
+
+.form__promo .checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.text__checkbox {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14.06px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.real__checkbox {
+    display: none;
+}
+
+.custom__checkbox {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    border: 1px #777777 solid;
+    vertical-align: sub;
+    padding: 2px;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    rotation: -45 deg;
+    padding: 2px 1px;
+}
+
+.custom__checkbox::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    content : "";
+    background-image: url("../img/checkbox.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-in;
+}
+
+.real__checkbox:checked + .custom__checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.pic__consoles {
+    margin-top: 25px;
+}
+#ad-consoles {
+    display: none;
+}
+
+
+.finish__promo {
+    background-image: url("../img/promo/finish.png");
+    width: 100%;
+    height: 70px;
+    margin-top: 70px;
+}
+
+/*screen hp*/
+
+.screen_hp {
+    background-color: #F8F200;
+}
+
+.screen_hp__inner {
+    display: flex;
+    padding-top: 70px;
+
+}
+
+.pics__screen_hp {
+
+}
+
+.pic__screen {
+    margin-bottom: 26px;
+}
+.pic__screen_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic__screen_logo img {
+    padding: 0 25px;
+}
+
+.text__screen_hp {
+    margin-left: 32px;
+
+}
+
+.text__screen_hp h2{
+    font-family: Archangelsk;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63.3px;
+    width: 560px;
+}
+
+.text__screen_hp p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    width: 624px;
+    margin-top: 25px;
+}
+
+.text__screen_hp ul li img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.text__screen_hp ul {
+    margin-top: 16px;
+}
+
+.text__screen_hp ul li {
+    font-family: Roboto;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    display: flex;
+
+}
+.text__screen_hp ul li span {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.text__screen_hp img {
+    position: relative;
+    top: 12px;
+}
+
+.button__screen_hp {
+    display: inline-block;
+    background-color: #000000;
+    color: #F8F200;
+    padding: 19px 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 21.09px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+/*buy_cyberpunk*/
+
+.buy_cyberpunk {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.buy_cyberpunk__inner{
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #000000;
+}
+
+
+.img__buy_cyberpunk {
+    background-image: url("../img/buy_cyberpunk/img__buy_cyberpunk.png");
+    /*vertical-align: top;*/
+    width: 944px;
+    height: 717px;
+}
+
+.promo__buy_cyberpunk {
+    margin-top: 70px;
+    margin-left: 32px;
+}
+
+.title__buy_cyberpunk h2 {
+    font-family: "Archangelsk";
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63.3px;
+    width: 624px;
+}
+
+.set__buy_cyberpunk {
+    margin-top: 25px;
+}
+
+.set__buy_cyberpunk p, .platform p {
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+}
+
+.set__buy_cyberpunk ul li {
+    margin-top: 15px;
+}
+
+.set__buy_cyberpunk ul li span {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.set__buy_cyberpunk ul li img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+}
+
+.platform {
+    margin-top: 70px;
+}
+
+.platform__img {
+    margin-top: 24.85px;
+    max-width: 319px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    grid-gap: 55.53px; /* Отступ между картинками /*
+    justify-items: center; /* Центрируем картинки в колонке */
+}
+
+
+/*footer*/
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+
+.info__footer{
+    display: flex;
+    justify-content: space-between;
+    width: 388px;
+    align-items: center;
+}
+.info__footer a {
+    color: #000000;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+/*brand__footer*/
+
+.brand__footer {
+    background-color: #000000;
+}
+
+.text_brand__footer {
+    color: #ffffff;
+    text-align: center;
+    line-height: 14.06px;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding: 13px 0;
+}

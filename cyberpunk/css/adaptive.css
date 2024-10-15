@@ -1,0 +1,326 @@
+:root { /*Переменная css*/
+    --gutter: 32px;
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        padding: 0 36px;
+        margin: 0 auto;
+    }
+
+    .header__banner {
+        height: 763px;
+    }
+
+    .pic__content {
+        flex-direction: column;
+    }
+
+    .pic__two {
+        flex-direction: row;
+    }
+
+    .top__promo {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 12px;
+    }
+    .top__promo h2{
+        font-size: 30px;
+        line-height: 30.63px;
+        margin: 0;
+    }
+    #promo_pic {
+        width: 62px;
+    }
+
+    .pic__consoles #consoles {
+        display: none;
+    }
+
+    .pic__consoles #ad-consoles {
+        display: block;
+    }
+
+    .text__promo {
+        width: 320px;
+    }
+    .top__promo h2 {
+        padding: 0 12px;
+    }
+    .text__promo p{
+        width: 296px;
+        font-size: 16px;
+        line-height: 32px;
+        padding: 0 12px;
+    }
+
+    .form__img__promo {
+        display: inline-block;
+    }
+
+     .pic__consoles #ad-consoles{
+         width: 460px;
+         height: 858px;
+         margin-right: 32px;
+    }
+    .pic__consoles #consoles {
+        display: none;
+    }
+
+
+    .pic__screen img {
+        width: 460px;
+        height: 317px;
+    }
+    .pic__screen_logo {
+        flex-direction: column;
+    }
+
+    .text__screen_hp h2{
+        width: 460px;
+    }
+    .text__screen_hp p {
+        width: 460px;
+    }
+
+    .input__form__promo {
+        width: 296px;
+    }
+    .custom-file-upload {
+        padding: 51px 56px 50px;
+    }
+
+}
+
+@media screen and (min-width : 320px) and (max-width: 1023px) {
+    /*#header {*/
+    /*    width: 320px;*/
+    /*}*/
+    .container {
+        max-width: 320px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .top__header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 250px;
+        height: 50px;
+    }
+
+    .social-media a img {
+        height: 25px;
+
+    }
+
+    .header__text {
+        padding: 0;
+        height: 207px;
+        width: 320px;
+    }
+    .banner-bottom {
+        padding: 10px 50px;
+        font-size: 20px;
+        margin: 0 38px 30px;
+    }
+    .header__text h2 {
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 295px;
+        text-align: center;
+        margin: 30px 14px 20px;
+    }
+    .text__content {
+        padding: 0 12px;
+    }
+    .text__content h2{
+        width: 296px;
+        font-size: 30px;
+        line-height: 30.63px;
+    }
+    .text__content p{
+        width: 296px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .title__buy_cyberpunk h2{
+        font-size: 30px;
+        line-height: 30.63px;
+        width: 296px;
+    }
+
+    .pic__two {
+        flex-direction: column;
+    }
+    .pic__two img {
+        width: 320px;
+        height: 196px;
+        margin-bottom: 32px;
+    }
+
+
+    #ad-img-3 {
+        width: 320px;
+        height: 424px;
+    }
+    .promo {
+
+    }
+    .promo__inner {
+        flex-direction: column;
+    }
+
+    .screen_hp__inner {
+        flex-direction: column;
+    }
+
+    .buy_cyberpunk__inner {
+        flex-direction: column;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+    }
+    .logo__footer {
+        flex-direction: column;
+    }
+    .info__footer {
+        flex-direction: column;
+    }
+
+    .pic__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__promo form {
+        padding: 0 0 0 12px;
+    }
+
+    .pic__screen img {
+        width: 296px;
+        height: 204px;
+    }
+
+    .pic__screen_logo {
+        /*flex-direction: row;*/
+    }
+
+    #cyberpunk_pic {
+        width: 175px;
+        height: 44px;
+    }
+    #x_pic {
+        width: 11px;
+        height: 50px;
+    }
+
+    .container {
+        max-width: 320px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .promo__buy_cyberpunk {
+        margin-left: 12px;
+    }
+
+    .text__screen_hp h2 {
+        font-size: 30px;
+        width: 296px;
+        line-height: 30.63px;
+    }
+    .text__screen_hp p {
+        width: 296px;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .text__screen_hp span {
+        font-size: 16px;
+        line-height: 18.75px;
+        font-weight: 400;
+    }
+    .img__buy_cyberpunk {
+        height: 198px;
+        width: 320px;
+    }
+    .title__buy_cyberpunk h2 {
+        width: 296px;
+        font-size: 30px;
+        line-height: 30.63px;
+        font-weight: 400;
+    }
+    .set__buy_cyberpunk {
+        width: 296px;
+    }
+    .set__buy_cyberpunk span {
+        font-size: 16px;
+        line-height: 18.75px;
+        font-weight: 400;
+        width: 217px;
+    }
+    .set__buy_cyberpunk ul li img {
+        height: 20px;
+        width: 20px;
+        top: 5px;
+    }
+
+    .platform {
+        margin: 70px 0;
+    }
+
+    .platform p {
+        font-size: 20px;
+        line-height: 23.44px;
+        font-weight: 700;
+    }
+    .platform__img {
+        grid-gap: 48px;
+        max-width: 296px;
+    }
+    .logo__footer {
+        align-items: center;
+        width: 320px;
+    }
+    .info__footer {
+        width: 320px;
+    }
+    .footer__inner {
+        justify-content: center;
+    }
+
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > div {
+    /*padding: 32px;*/
+    /*margin: 0 auto;*/
+}
+
+.col-8 {
+    width: calc(100% - var(--gutter));
+}
+.col-6 {
+    width: calc(75% - var(--gutter));
+}
+
+.col-2 {
+    width: calc(25% - var(--gutter));
+}
