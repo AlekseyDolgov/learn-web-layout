@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+
+.header {
+    background-image: url("../img/header/bg.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 250px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 41px;
+}
+
+.logo {
+    margin-bottom: 306px;
+}
+.label {
+
+}
+.label h2{
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    line-height: 70.31px;
+    color: #FFFFFFFF;
+    margin-bottom: 21px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5.71px;
+}
+.label p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-bottom: 221px;
+    color: #FFFFFFFF;
+    text-align: center;
+}
+
+.scrol {
+    font-family: "Open Sans";
+    color: #FFFFFFFF;
+    margin-bottom: 71px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 12.89px;
+    letter-spacing: 3.7px;
+}
+
+/*nav*/
+
+.nav__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.navigation {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a {
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #48555B;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: #00A4E5;
+}
+
+/*content*/
+.title__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title__content h2 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 21.09px;
+    letter-spacing: 2.31px;
+    text-align: center;
+    color: #48555B;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+.info__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.text__content {
+    width: 405.08px;
+}
+.text__content h2{
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 0.19px;
+}
+.text__content h2 span {
+    color: #00A4E5;
+}
+.text__content p {
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    color: #48555B;
+}
+
+.top__capabilities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__capabilities h2 {
+    font-family: "Open Sans";
+    letter-spacing: 2.31px;
+    line-height: 21.09px;
+    font-size: 18px;
+    color: #48555B;
+    margin-bottom: 10px;
+}
+.text__capabilities p {
+    width: 405.4px;
+    color: #48555B;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a {
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 0.5px;
+}
+
+.cards__capabilities {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+
+.card__capabilities {
+    width: 295px;
+    padding: 38px 23px 39px;
+}
+.card__capabilities img {
+    width: 65.63px;
+    height: 75px;
+}
+.card__capabilities h2 {
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 24px;
+    letter-spacing: 0.43px;
+    color: #48555B;
+}
+.card__capabilities p {
+    font-family: "Open Sans";
+    font-size: 13px;
+    letter-spacing: 0.19px;
+    line-height: 23px;
+    color: #48555B;
+}
+
+/*hero_section*/
+
+.hero_section__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_section__title{
+    display: block;
+    width: 350px;
+}
+.hero_section__title h2 {
+    font-size: 30px;
+    line-height: 36px;
+   letter-spacing: 0.15px;
+    font-family: "Open Sans";
+    text-align: center;
+    color: #48555B;
+    margin-bottom: 35px;
+}
+
+.hero_section {
+    position: relative;
+    height: 499px;
+    overflow: hidden;
+}
+.hero_section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/hero_section/fon.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero_section__title {
+    margin-top: 120px;
+}
+
+/*search*/
+
+.search {
+    background-color: #171819;
+}
+
+.search__inner {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.search__inner h2 {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: 0.85px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.form_input {
+    background-color: #FFFFFF;
+    color: #48555B;
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding-left: 16px;
+    margin: 0;
+    outline: none;
+}
+
+.form_button {
+    background-color: #00A4E5;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    position: relative;
+    right: 5px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #141A20;
+}
+
+.footer p, a, li{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans";
+    padding: 5px 0;
+}
+
+.footer__inner {
+    padding: 42px 0 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.menu__footer {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.company p {
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 0.85px;
+}
+.logo__footer {
+    padding: 15px 0;
+}
+.footer__text {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    width: 250px;
+
+}
+.menu__footer li {
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 0.85px;
+}
+
+.info__footer {
+    width: 141px;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.85px;
+}
+
+.social {
+    display: flex;
+    width: 87px;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.copyright__inner {
+    background-color: #171819;
+}
+.copyright__inner p {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: 0.85px;
+    text-align: center;
+    padding: 23px 0;
+}
